@@ -36,7 +36,7 @@ header time first on cached responses.
         'django.middleware.cache.FetchFromCacheMiddleware',
     )
 
-Then set `RESPONSE_CACHE_SECONDS` to the number of seconds each page should
+Then set ``RESPONSE_CACHE_SECONDS`` to the number of seconds each page should
 be cached on the front end.
 
 The Django documention does not cohesively describe how your middleware
