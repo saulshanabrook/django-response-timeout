@@ -24,7 +24,7 @@ Installation is as easy as::
 Setup
 -----
 Add ``response_timeout.middleware.SetCacheTimeoutMiddleware`` and place it
-after ``dumper.middleware.UpdateCacheMiddleware`` so that it will set the
+after ``django.middleware.cache.UpdateCacheMiddleware`` so that it will set the
 header time first on cached responses.
 
 .. code-block:: python
